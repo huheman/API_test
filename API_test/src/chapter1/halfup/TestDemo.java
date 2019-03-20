@@ -1,4 +1,4 @@
-package halfup;
+package chapter1.halfup;
 
 import java.util.stream.IntStream;
 

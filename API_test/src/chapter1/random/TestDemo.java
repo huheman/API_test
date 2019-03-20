@@ -1,6 +1,4 @@
-package random;
-
-import java.util.Random;
+package chapter1.random;
 
 public class TestDemo {
     public static void main(String[] args) {

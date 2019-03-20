@@ -1,4 +1,4 @@
-package timeescaping;
+package chapter1.timeescaping;
 
 import java.util.stream.IntStream;
 

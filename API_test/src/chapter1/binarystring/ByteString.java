@@ -1,4 +1,4 @@
-package binarystring;
+package chapter1.binarystring;
 
 public class ByteString {
     public static void main(String[] args) {
