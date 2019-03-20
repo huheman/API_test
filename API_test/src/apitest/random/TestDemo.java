@@ -1,4 +1,4 @@
-package chapter1.random;
+package apitest.random;
 
 public class TestDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chapter1.timeescaping;
+package apitest.timeescaping;
 
 import java.util.stream.IntStream;
 

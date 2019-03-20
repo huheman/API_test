@@ -1,4 +1,4 @@
-package chapter1.binarystring;
+package apitest.binarystring;
 
 public class IntegerTest {
     public static void main(String[] args) {

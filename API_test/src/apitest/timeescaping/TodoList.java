@@ -1,4 +1,4 @@
-package chapter1.timeescaping;
+package apitest.timeescaping;
 
 public interface TodoList {
     void doSomething();

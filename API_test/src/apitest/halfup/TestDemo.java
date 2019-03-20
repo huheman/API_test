@@ -1,4 +1,4 @@
-package chapter1.halfup;
+package apitest.halfup;
 
 import java.util.stream.IntStream;
 
