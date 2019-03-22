@@ -25,6 +25,7 @@ public class FileWalker {
             if (predicate.test(file)) fileHashSet.add(file);
         } else {
             File[] files = file.listFiles(f -> f.isDirectory() || predicate.test(f));
+            if (files==null) return fileHashSet;
             for (File fileListed : Objects.requireNonNull(files)) {
                 fileHashSet.addAll(Objects.requireNonNull(walk(fileListed, predicate)));
             }
