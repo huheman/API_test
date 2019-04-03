@@ -32,9 +32,13 @@ public class JDBC_7 {
         }
     }
 
-    private static void showRS(ResultSet resultSet) {
+    public static void showRS(ResultSet resultSet) {
         try {
             int columnCount = resultSet.getMetaData().getColumnCount();
+            for (int i = 0; i < columnCount; i++) {
+                System.out.print(resultSet.getMetaData().getColumnLabel(i + 1)+" | ");
+            }
+            System.out.println();
             while (resultSet.next()) {
                 for (int i = 0; i < columnCount; i++) {
                     Object object = resultSet.getObject(i + 1);
